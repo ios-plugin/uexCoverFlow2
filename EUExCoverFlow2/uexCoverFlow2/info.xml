@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexCoverFlow2" version="3.0.2" build="2">
+         <info>2:使用新版Xcode重新编译,支持arm64</info>
+        <build>1:去掉图片底部的标题栏</build>
+         <build>0:旋转木马功能插件</build>
+    </plugin>
+</uexplugins>

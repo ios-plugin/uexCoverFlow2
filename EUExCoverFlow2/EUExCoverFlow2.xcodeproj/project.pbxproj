@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A163FA7172930BD00F95EB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A163FA6172930BD00F95EB7 /* Foundation.framework */; };
+		5AA1F995188E69E300EA534C /* EUExCoverFlow2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F974188E69E300EA534C /* EUExCoverFlow2.m */; };
+		5AA1F996188E69E300EA534C /* iCarouselCoverFlow2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F977188E69E300EA534C /* iCarouselCoverFlow2.m */; };
+		5AA1F997188E69E300EA534C /* ReflectionCoverFlow2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F982188E69E300EA534C /* ReflectionCoverFlow2View.m */; };
+		5AA1F998188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F985188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m */; };
+		5AA1F999188E69E300EA534C /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F992188E69E300EA534C /* StyledPageControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A163FA1172930BD00F95EB7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A163FA3172930BD00F95EB7 /* libuexCoverFlow2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexCoverFlow2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A163FA6172930BD00F95EB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A1640811729363800F95EB7 /* EUExCoverFlow2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EUExCoverFlow2-Prefix.pch"; path = "EUExCoverFlow2/EUExCoverFlow2-Prefix.pch"; sourceTree = "<group>"; };
+		5AA1F970188E69E300EA534C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		5AA1F971188E69E300EA534C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		5AA1F972188E69E300EA534C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		5AA1F973188E69E300EA534C /* EUExCoverFlow2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUExCoverFlow2.h; path = EUExCoverFlow2/EUExCoverFlow2.h; sourceTree = "<group>"; };
+		5AA1F974188E69E300EA534C /* EUExCoverFlow2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EUExCoverFlow2.m; path = EUExCoverFlow2/EUExCoverFlow2.m; sourceTree = "<group>"; };
+		5AA1F976188E69E300EA534C /* iCarouselCoverFlow2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarouselCoverFlow2.h; sourceTree = "<group>"; };
+		5AA1F977188E69E300EA534C /* iCarouselCoverFlow2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarouselCoverFlow2.m; sourceTree = "<group>"; };
+		5AA1F979188E69E300EA534C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5AA1F97A188E69E300EA534C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		5AA1F97B188E69E300EA534C /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		5AA1F97C188E69E300EA534C /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		5AA1F97D188E69E300EA534C /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		5AA1F97E188E69E300EA534C /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		5AA1F97F188E69E300EA534C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		5AA1F981188E69E300EA534C /* ReflectionCoverFlow2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionCoverFlow2View.h; sourceTree = "<group>"; };
+		5AA1F982188E69E300EA534C /* ReflectionCoverFlow2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionCoverFlow2View.m; sourceTree = "<group>"; };
+		5AA1F984188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReflectionCoverFlow2View+WebCache.h"; sourceTree = "<group>"; };
+		5AA1F985188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ReflectionCoverFlow2View+WebCache.m"; sourceTree = "<group>"; };
+		5AA1F986188E69E300EA534C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		5AA1F987188E69E300EA534C /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		5AA1F988188E69E300EA534C /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		5AA1F989188E69E300EA534C /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		5AA1F98A188E69E300EA534C /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		5AA1F98B188E69E300EA534C /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		5AA1F98C188E69E300EA534C /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		5AA1F98D188E69E300EA534C /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		5AA1F98E188E69E300EA534C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		5AA1F98F188E69E300EA534C /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		5AA1F990188E69E300EA534C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		5AA1F991188E69E300EA534C /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
+		5AA1F992188E69E300EA534C /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A163FA0172930BD00F95EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A163FA7172930BD00F95EB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A163F98172930BD00F95EB7 = {
+			isa = PBXGroup;
+			children = (
+				5AA1F96F188E69E300EA534C /* engineHeader */,
+				5AA1F973188E69E300EA534C /* EUExCoverFlow2.h */,
+				5AA1F974188E69E300EA534C /* EUExCoverFlow2.m */,
+				5AA1F975188E69E300EA534C /* soureCode */,
+				5A1640811729363800F95EB7 /* EUExCoverFlow2-Prefix.pch */,
+				5A163FA5172930BD00F95EB7 /* Frameworks */,
+				5A163FA4172930BD00F95EB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A163FA4172930BD00F95EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A163FA3172930BD00F95EB7 /* libuexCoverFlow2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A163FA5172930BD00F95EB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A163FA6172930BD00F95EB7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AA1F96F188E69E300EA534C /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F970188E69E300EA534C /* EUExBase.h */,
+				5AA1F971188E69E300EA534C /* EUExBaseDefine.h */,
+				5AA1F972188E69E300EA534C /* EUtility.h */,
+			);
+			name = engineHeader;
+			path = EUExCoverFlow2/engineHeader;
+			sourceTree = "<group>";
+		};
+		5AA1F975188E69E300EA534C /* soureCode */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F976188E69E300EA534C /* iCarouselCoverFlow2.h */,
+				5AA1F977188E69E300EA534C /* iCarouselCoverFlow2.m */,
+				5AA1F978188E69E300EA534C /* JSON */,
+				5AA1F980188E69E300EA534C /* ReflectionView */,
+				5AA1F983188E69E300EA534C /* SDWebImage */,
+				5AA1F991188E69E300EA534C /* StyledPageControl.h */,
+				5AA1F992188E69E300EA534C /* StyledPageControl.m */,
+			);
+			name = soureCode;
+			path = EUExCoverFlow2/soureCode;
+			sourceTree = "<group>";
+		};
+		5AA1F978188E69E300EA534C /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F979188E69E300EA534C /* JSON.h */,
+				5AA1F97A188E69E300EA534C /* NSObject+SBJSON.h */,
+				5AA1F97B188E69E300EA534C /* NSString+SBJSON.h */,
+				5AA1F97C188E69E300EA534C /* SBJSON.h */,
+				5AA1F97D188E69E300EA534C /* SBJsonBase.h */,
+				5AA1F97E188E69E300EA534C /* SBJsonParser.h */,
+				5AA1F97F188E69E300EA534C /* SBJsonWriter.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		5AA1F980188E69E300EA534C /* ReflectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F981188E69E300EA534C /* ReflectionCoverFlow2View.h */,
+				5AA1F982188E69E300EA534C /* ReflectionCoverFlow2View.m */,
+			);
+			path = ReflectionView;
+			sourceTree = "<group>";
+		};
+		5AA1F983188E69E300EA534C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1F984188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.h */,
+				5AA1F985188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m */,
+				5AA1F986188E69E300EA534C /* SDImageCache.h */,
+				5AA1F987188E69E300EA534C /* SDImageCacheDelegate.h */,
+				5AA1F988188E69E300EA534C /* SDWebImageCompat.h */,
+				5AA1F989188E69E300EA534C /* SDWebImageDecoder.h */,
+				5AA1F98A188E69E300EA534C /* SDWebImageDownloader.h */,
+				5AA1F98B188E69E300EA534C /* SDWebImageDownloaderDelegate.h */,
+				5AA1F98C188E69E300EA534C /* SDWebImageManager.h */,
+				5AA1F98D188E69E300EA534C /* SDWebImageManagerDelegate.h */,
+				5AA1F98E188E69E300EA534C /* SDWebImagePrefetcher.h */,
+				5AA1F98F188E69E300EA534C /* UIButton+WebCache.h */,
+				5AA1F990188E69E300EA534C /* UIImageView+WebCache.h */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A163FA2172930BD00F95EB7 /* EUExCoverFlow2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A163FB1172930BD00F95EB7 /* Build configuration list for PBXNativeTarget "EUExCoverFlow2" */;
+			buildPhases = (
+				5A163F9F172930BD00F95EB7 /* Sources */,
+				5A163FA0172930BD00F95EB7 /* Frameworks */,
+				5A163FA1172930BD00F95EB7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExCoverFlow2;
+			productName = EUExCoverFlow;
+			productReference = 5A163FA3172930BD00F95EB7 /* libuexCoverFlow2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A163F9A172930BD00F95EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = xll;
+			};
+			buildConfigurationList = 5A163F9D172930BD00F95EB7 /* Build configuration list for PBXProject "EUExCoverFlow2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A163F98172930BD00F95EB7;
+			productRefGroup = 5A163FA4172930BD00F95EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A163FA2172930BD00F95EB7 /* EUExCoverFlow2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A163F9F172930BD00F95EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA1F996188E69E300EA534C /* iCarouselCoverFlow2.m in Sources */,
+				5AA1F995188E69E300EA534C /* EUExCoverFlow2.m in Sources */,
+				5AA1F998188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m in Sources */,
+				5AA1F997188E69E300EA534C /* ReflectionCoverFlow2View.m in Sources */,
+				5AA1F999188E69E300EA534C /* StyledPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A163FAF172930BD00F95EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A163FB0172930BD00F95EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A163FB2172930BD00F95EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexCoverFlow2/";
+				DSTROOT = /tmp/EUExCoverFlow2.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExCoverFlow2/EUExCoverFlow2-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexCoverFlow2;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A163FB3172930BD00F95EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexCoverFlow2/";
+				DSTROOT = /tmp/EUExCoverFlow2.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExCoverFlow2/EUExCoverFlow2-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexCoverFlow2;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A163F9D172930BD00F95EB7 /* Build configuration list for PBXProject "EUExCoverFlow2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A163FAF172930BD00F95EB7 /* Debug */,
+				5A163FB0172930BD00F95EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A163FB1172930BD00F95EB7 /* Build configuration list for PBXNativeTarget "EUExCoverFlow2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A163FB2172930BD00F95EB7 /* Debug */,
+				5A163FB3172930BD00F95EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A163F9A172930BD00F95EB7 /* Project object */;
+}
