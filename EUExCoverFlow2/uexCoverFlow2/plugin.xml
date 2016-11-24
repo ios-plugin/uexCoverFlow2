@@ -4,6 +4,9 @@
         <method name="open"></method>
         <method name="setJsonData"></method>
         <method name="close"></method>
+        
+        
+        <method name="create" sync = "true"></method>
 	</plugin>
 </uexplugins>
 

@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "EUExBase.h"
-#import "iCarouselCoverFlow2.h"
+
 @interface EUExCoverFlow2 :  EUExBase<iCarouselDelegate,iCarouselDataSource>{
     
 }

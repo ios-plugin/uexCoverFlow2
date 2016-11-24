@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21682E4B1D4B53300008BEBF /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21682E4A1D4B53300008BEBF /* AppCanKit.framework */; };
+		2189535C1D4EEDA100C69839 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189535B1D4EEDA100C69839 /* iCarousel.m */; };
+		2189535F1D4EEE9100C69839 /* iCarouselCoverFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189535E1D4EEE9100C69839 /* iCarouselCoverFlow.m */; };
 		5A163FA7172930BD00F95EB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A163FA6172930BD00F95EB7 /* Foundation.framework */; };
 		5AA1F995188E69E300EA534C /* EUExCoverFlow2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F974188E69E300EA534C /* EUExCoverFlow2.m */; };
-		5AA1F996188E69E300EA534C /* iCarouselCoverFlow2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F977188E69E300EA534C /* iCarouselCoverFlow2.m */; };
-		5AA1F997188E69E300EA534C /* ReflectionCoverFlow2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F982188E69E300EA534C /* ReflectionCoverFlow2View.m */; };
-		5AA1F998188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F985188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m */; };
-		5AA1F999188E69E300EA534C /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F992188E69E300EA534C /* StyledPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,27 +27,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21682E4A1D4B53300008BEBF /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
+		2189535A1D4EED9A00C69839 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		2189535B1D4EEDA100C69839 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		2189535D1D4EEE9100C69839 /* iCarouselCoverFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarouselCoverFlow.h; sourceTree = "<group>"; };
+		2189535E1D4EEE9100C69839 /* iCarouselCoverFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarouselCoverFlow.m; sourceTree = "<group>"; };
 		5A163FA3172930BD00F95EB7 /* libuexCoverFlow2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexCoverFlow2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A163FA6172930BD00F95EB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A1640811729363800F95EB7 /* EUExCoverFlow2-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EUExCoverFlow2-Prefix.pch"; path = "EUExCoverFlow2/EUExCoverFlow2-Prefix.pch"; sourceTree = "<group>"; };
-		5AA1F970188E69E300EA534C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		5AA1F971188E69E300EA534C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		5AA1F972188E69E300EA534C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
 		5AA1F973188E69E300EA534C /* EUExCoverFlow2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUExCoverFlow2.h; path = EUExCoverFlow2/EUExCoverFlow2.h; sourceTree = "<group>"; };
 		5AA1F974188E69E300EA534C /* EUExCoverFlow2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EUExCoverFlow2.m; path = EUExCoverFlow2/EUExCoverFlow2.m; sourceTree = "<group>"; };
-		5AA1F976188E69E300EA534C /* iCarouselCoverFlow2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarouselCoverFlow2.h; sourceTree = "<group>"; };
-		5AA1F977188E69E300EA534C /* iCarouselCoverFlow2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarouselCoverFlow2.m; sourceTree = "<group>"; };
-		5AA1F979188E69E300EA534C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		5AA1F97A188E69E300EA534C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
-		5AA1F97B188E69E300EA534C /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
-		5AA1F97C188E69E300EA534C /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
-		5AA1F97D188E69E300EA534C /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
-		5AA1F97E188E69E300EA534C /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		5AA1F97F188E69E300EA534C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		5AA1F981188E69E300EA534C /* ReflectionCoverFlow2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionCoverFlow2View.h; sourceTree = "<group>"; };
-		5AA1F982188E69E300EA534C /* ReflectionCoverFlow2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionCoverFlow2View.m; sourceTree = "<group>"; };
-		5AA1F984188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ReflectionCoverFlow2View+WebCache.h"; sourceTree = "<group>"; };
-		5AA1F985188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ReflectionCoverFlow2View+WebCache.m"; sourceTree = "<group>"; };
 		5AA1F986188E69E300EA534C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
 		5AA1F987188E69E300EA534C /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
 		5AA1F988188E69E300EA534C /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
@@ -60,8 +50,6 @@
 		5AA1F98E188E69E300EA534C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		5AA1F98F188E69E300EA534C /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
 		5AA1F990188E69E300EA534C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		5AA1F991188E69E300EA534C /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
-		5AA1F992188E69E300EA534C /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21682E4B1D4B53300008BEBF /* AppCanKit.framework in Frameworks */,
 				5A163FA7172930BD00F95EB7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,7 +97,6 @@
 		5AA1F96F188E69E300EA534C /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
-				5AA1F970188E69E300EA534C /* EUExBase.h */,
 				5AA1F971188E69E300EA534C /* EUExBaseDefine.h */,
 				5AA1F972188E69E300EA534C /* EUtility.h */,
 			);
@@ -119,46 +107,20 @@
 		5AA1F975188E69E300EA534C /* soureCode */ = {
 			isa = PBXGroup;
 			children = (
-				5AA1F976188E69E300EA534C /* iCarouselCoverFlow2.h */,
-				5AA1F977188E69E300EA534C /* iCarouselCoverFlow2.m */,
-				5AA1F978188E69E300EA534C /* JSON */,
-				5AA1F980188E69E300EA534C /* ReflectionView */,
+				21682E4A1D4B53300008BEBF /* AppCanKit.framework */,
+				2189535A1D4EED9A00C69839 /* iCarousel.h */,
+				2189535B1D4EEDA100C69839 /* iCarousel.m */,
+				2189535D1D4EEE9100C69839 /* iCarouselCoverFlow.h */,
+				2189535E1D4EEE9100C69839 /* iCarouselCoverFlow.m */,
 				5AA1F983188E69E300EA534C /* SDWebImage */,
-				5AA1F991188E69E300EA534C /* StyledPageControl.h */,
-				5AA1F992188E69E300EA534C /* StyledPageControl.m */,
 			);
 			name = soureCode;
 			path = EUExCoverFlow2/soureCode;
 			sourceTree = "<group>";
 		};
-		5AA1F978188E69E300EA534C /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				5AA1F979188E69E300EA534C /* JSON.h */,
-				5AA1F97A188E69E300EA534C /* NSObject+SBJSON.h */,
-				5AA1F97B188E69E300EA534C /* NSString+SBJSON.h */,
-				5AA1F97C188E69E300EA534C /* SBJSON.h */,
-				5AA1F97D188E69E300EA534C /* SBJsonBase.h */,
-				5AA1F97E188E69E300EA534C /* SBJsonParser.h */,
-				5AA1F97F188E69E300EA534C /* SBJsonWriter.h */,
-			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		5AA1F980188E69E300EA534C /* ReflectionView */ = {
-			isa = PBXGroup;
-			children = (
-				5AA1F981188E69E300EA534C /* ReflectionCoverFlow2View.h */,
-				5AA1F982188E69E300EA534C /* ReflectionCoverFlow2View.m */,
-			);
-			path = ReflectionView;
-			sourceTree = "<group>";
-		};
 		5AA1F983188E69E300EA534C /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				5AA1F984188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.h */,
-				5AA1F985188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m */,
 				5AA1F986188E69E300EA534C /* SDImageCache.h */,
 				5AA1F987188E69E300EA534C /* SDImageCacheDelegate.h */,
 				5AA1F988188E69E300EA534C /* SDWebImageCompat.h */,
@@ -225,11 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA1F996188E69E300EA534C /* iCarouselCoverFlow2.m in Sources */,
+				2189535C1D4EEDA100C69839 /* iCarousel.m in Sources */,
 				5AA1F995188E69E300EA534C /* EUExCoverFlow2.m in Sources */,
-				5AA1F998188E69E300EA534C /* ReflectionCoverFlow2View+WebCache.m in Sources */,
-				5AA1F997188E69E300EA534C /* ReflectionCoverFlow2View.m in Sources */,
-				5AA1F999188E69E300EA534C /* StyledPageControl.m in Sources */,
+				2189535F1D4EEE9100C69839 /* iCarouselCoverFlow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +245,13 @@
 		5A163FB2172930BD00F95EB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexCoverFlow2/";
 				DSTROOT = /tmp/EUExCoverFlow2.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExCoverFlow2/soureCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExCoverFlow2/EUExCoverFlow2-Prefix.pch";
 				ONLY_ACTIVE_ARCH = NO;
@@ -299,8 +264,13 @@
 		5A163FB3172930BD00F95EB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexCoverFlow2/";
 				DSTROOT = /tmp/EUExCoverFlow2.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExCoverFlow2/soureCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExCoverFlow2/EUExCoverFlow2-Prefix.pch";
 				ONLY_ACTIVE_ARCH = NO;
