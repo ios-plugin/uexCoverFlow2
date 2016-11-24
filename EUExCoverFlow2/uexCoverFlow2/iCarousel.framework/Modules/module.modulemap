@@ -1,0 +1,6 @@
+framework module iCarousel {
+  umbrella header "iCarousel.h"
+
+  export *
+  module * { export * }
+}
