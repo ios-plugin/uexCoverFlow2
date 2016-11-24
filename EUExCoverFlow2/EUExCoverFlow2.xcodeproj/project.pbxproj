@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2122BE001DC9861A0012213B /* iCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2122BDFF1DC9861A0012213B /* iCarousel.framework */; };
+		2143DD391DC9889400A4AFFB /* iCarousel.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2122BDFF1DC9861A0012213B /* iCarousel.framework */; };
 		21682E4B1D4B53300008BEBF /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21682E4A1D4B53300008BEBF /* AppCanKit.framework */; };
-		2189535C1D4EEDA100C69839 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189535B1D4EEDA100C69839 /* iCarousel.m */; };
 		2189535F1D4EEE9100C69839 /* iCarouselCoverFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189535E1D4EEE9100C69839 /* iCarouselCoverFlow.m */; };
 		5A163FA7172930BD00F95EB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A163FA6172930BD00F95EB7 /* Foundation.framework */; };
 		5AA1F995188E69E300EA534C /* EUExCoverFlow2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1F974188E69E300EA534C /* EUExCoverFlow2.m */; };
@@ -18,18 +19,18 @@
 		5A163FA1172930BD00F95EB7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
+			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				2143DD391DC9889400A4AFFB /* iCarousel.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2122BDFF1DC9861A0012213B /* iCarousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iCarousel.framework; sourceTree = "<group>"; };
 		21682E4A1D4B53300008BEBF /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
-		2189535A1D4EED9A00C69839 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		2189535B1D4EEDA100C69839 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		2189535D1D4EEE9100C69839 /* iCarouselCoverFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarouselCoverFlow.h; sourceTree = "<group>"; };
 		2189535E1D4EEE9100C69839 /* iCarouselCoverFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarouselCoverFlow.m; sourceTree = "<group>"; };
 		5A163FA3172930BD00F95EB7 /* libuexCoverFlow2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexCoverFlow2.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +60,7 @@
 			files = (
 				21682E4B1D4B53300008BEBF /* AppCanKit.framework in Frameworks */,
 				5A163FA7172930BD00F95EB7 /* Foundation.framework in Frameworks */,
+				2122BE001DC9861A0012213B /* iCarousel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,9 +109,8 @@
 		5AA1F975188E69E300EA534C /* soureCode */ = {
 			isa = PBXGroup;
 			children = (
+				2122BDFF1DC9861A0012213B /* iCarousel.framework */,
 				21682E4A1D4B53300008BEBF /* AppCanKit.framework */,
-				2189535A1D4EED9A00C69839 /* iCarousel.h */,
-				2189535B1D4EEDA100C69839 /* iCarousel.m */,
 				2189535D1D4EEE9100C69839 /* iCarouselCoverFlow.h */,
 				2189535E1D4EEE9100C69839 /* iCarouselCoverFlow.m */,
 				5AA1F983188E69E300EA534C /* SDWebImage */,
@@ -187,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2189535C1D4EEDA100C69839 /* iCarousel.m in Sources */,
 				5AA1F995188E69E300EA534C /* EUExCoverFlow2.m in Sources */,
 				2189535F1D4EEE9100C69839 /* iCarouselCoverFlow.m in Sources */,
 			);
